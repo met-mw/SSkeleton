@@ -2,6 +2,7 @@
     "name": "met_mw/sskeleton",
     "type": "project",
     "description": "Application skeleton for SFramework.",
+    "license": "MIT",
     "authors": [
         {
             "name": "any",
