@@ -1,7 +1,7 @@
 {
-    "name": "Skeleton",
+    "name": "met_mw/sskeleton",
     "type": "project",
-    "description": "My project",
+    "description": "Application skeleton for SFramework.",
     "authors": [
         {
             "name": "any",
