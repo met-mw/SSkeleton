@@ -38,7 +38,8 @@ abstract class FrontControllerAbstract implements ControllerInterface
             ->getCurrent()
             ->load(SFW_APP_FRAMES_ROOT . 'front.html')
             ->addMeta(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1.0'])
-            ->addMeta(['charset' => 'utf8']);
+            ->addMeta(['http-equiv' => 'X-UA-Compatible', 'content' => 'IE=edge'])
+            ->addMeta(['charset' => 'utf-8']);
 
         if (!is_null($this->validator)) {
             $this->validator
